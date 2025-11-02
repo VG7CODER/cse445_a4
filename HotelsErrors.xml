@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Hotel>
+  <!-- wrong root name -->
+  <Hotel ID="H1" Rating="4.2">
+    <Name>Westin</Name>
+    <Phone>480-968-8885</Phone>
+    <Address>
+      <Number>11</Number>
+      <Street>E 7th St</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+      <NearestAirport>Sky Harbor</NearestAirport>
+    </Address>
+    <Phone>800-937-8461</Phone>
+  </Hotel>
+
+  <!-- required attribute (ID) missing -->
+  <Hotel Rating="4.4">
+    <Name>Graduate Tempe</Name>
+    <Phone>480-967-9431</Phone>
+    <Address>
+      <Number>225</Number>
+      <Street>E Apache Blvd</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+      <NearestAirport>Sky Harbor</NearestAirport>
+    </Address>
+  </Hotel>
+
+  <!-- phone element missing -->
+  <Hotel ID="H3">
+    <Name>Tempe Mission Palms</Name>
+    <Address>
+      <Number>60</Number>
+      <Street>E 5th St</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+      <NearestAirport>Sky Harbor</NearestAirport>
+    </Address>
+  </Hotel>
+
+  <!-- two name elements for this hotel -->
+  <Hotel ID="H4">
+    <Name>Courtyard by Marriott Tempe Downtown</Name>
+    <Name>Duplicate Name Should Not Exist</Name>
+    <Phone>480-966-2800</Phone>
+    <Address>
+      <Number>601</Number>
+      <Street>S Ash Ave</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+      <NearestAirport>Sky Harbor</NearestAirport>
+    </Address>
+  </Hotel>
+
+  <!-- no closing tag for address -->
+  <Hotel ID="H5">
+    <Name>Residence Inn Tempe Downtown/University</Name>
+    <Phone>480-967-2300</Phone>
+    <Address>
+      <Number>510</Number>
+      <Street>S Forest Ave</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+      <NearestAirport>Sky Harbor</NearestAirport>
+  </Hotel>
+</Hotel>
