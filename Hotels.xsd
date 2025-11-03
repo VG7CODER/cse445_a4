@@ -22,7 +22,7 @@
     </xs:restriction>
   </xs:simpleType>
 
-  <!-- address with required NearestAirport attribute -->
+  <!-- address with required attribute -->
   <xs:complexType name="AddressType">
     <xs:sequence>
       <xs:element name="Number" type="xs:string"/>
@@ -30,11 +30,11 @@
       <xs:element name="City" type="xs:string"/>
       <xs:element name="State" type="USStateType"/>
       <xs:element name="Zip" type="USZipType"/>
-      <xs:element name="NearestAirport" type="xs:string"/>
     </xs:sequence>
+    <xs:attribute name="NearestAirport" type="xs:string" use="required"/>
   </xs:complexType>
 
-  <!-- a single hotel -->
+  <!-- single hotel -->
   <xs:complexType name="HotelType">
     <xs:sequence>
       <xs:element name="Name" type="xs:string"/>
