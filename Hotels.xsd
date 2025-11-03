@@ -30,8 +30,8 @@
       <xs:element name="City" type="xs:string"/>
       <xs:element name="State" type="USStateType"/>
       <xs:element name="Zip" type="USZipType"/>
+      <xs:element name="NearestAirport" type="xs:string"/>
     </xs:sequence>
-    <xs:attribute name="NearestAirport" type="xs:string" use="required"/>
   </xs:complexType>
 
   <!-- a single hotel -->
