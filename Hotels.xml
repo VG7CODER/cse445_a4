@@ -7,26 +7,24 @@
     <Name>Westin</Name>
     <Phone>480-968-8885</Phone>
     <Phone>800-937-8461</Phone>
-    <Address>
+    <Address NearestAirport="Sky Harbor">
       <Number>11</Number>
       <Street>E. 7th St</Street>
       <City>Tempe</City>
       <State>AZ</State>
       <Zip>85281</Zip>
-      <NearestAirport>Sky Harbor</NearestAirport>
     </Address>
   </Hotel>
 
   <Hotel Rating="4.5">
     <Name>Omni Tempe Hotel at ASU</Name>
     <Phone>480-555-0101</Phone>
-    <Address>
+    <Address NearestAirport="Sky Harbor">
       <Number>7</Number>
       <Street>E. University Dr</Street>
       <City>Tempe</City>
       <State>AZ</State>
       <Zip>85281</Zip>
-      <NearestAirport>Sky Harbor</NearestAirport>
     </Address>
   </Hotel>
 
@@ -34,39 +32,36 @@
     <Name>Graduate Tempe</Name>
     <Phone>480-555-0102</Phone>
     <Phone>480-555-0192</Phone>
-    <Address>
+    <Address NearestAirport="Sky Harbor">
       <Number>225</Number>
       <Street>E. Apache Blvd</Street>
       <City>Tempe</City>
       <State>AZ</State>
       <Zip>85281</Zip>
-      <NearestAirport>Sky Harbor</NearestAirport>
     </Address>
   </Hotel>
 
   <Hotel Rating="4.0">
     <Name>Aloft Tempe</Name>
     <Phone>480-555-0103</Phone>
-    <Address>
+    <Address NearestAirport="Sky Harbor">
       <Number>951</Number>
       <Street>E. Playa Del Norte Dr</Street>
       <City>Tempe</City>
       <State>AZ</State>
       <Zip>85281</Zip>
-      <NearestAirport>Sky Harbor</NearestAirport>
     </Address>
   </Hotel>
 
   <Hotel>
     <Name>Courtyard by Marriott Tempe Downtown</Name>
     <Phone>480-555-0104</Phone>
-    <Address>
+    <Address NearestAirport="Sky Harbor">
       <Number>601</Number>
       <Street>S. Ash Ave</Street>
       <City>Tempe</City>
       <State>AZ</State>
       <Zip>85281</Zip>
-      <NearestAirport>Sky Harbor</NearestAirport>
     </Address>
   </Hotel>
 
@@ -74,26 +69,24 @@
     <Name>Residence Inn Tempe Downtown/University</Name>
     <Phone>480-555-0105</Phone>
     <Phone>480-555-0175</Phone>
-    <Address>
+    <Address NearestAirport="Sky Harbor">
       <Number>510</Number>
       <Street>S. Forest Ave</Street>
       <City>Tempe</City>
       <State>AZ</State>
       <Zip>85281</Zip>
-      <NearestAirport>Sky Harbor</NearestAirport>
     </Address>
   </Hotel>
 
   <Hotel Rating="4.1">
     <Name>Hyatt Place Tempe / Phoenix Airport</Name>
     <Phone>480-555-0106</Phone>
-    <Address>
+    <Address NearestAirport="Sky Harbor">
       <Number>1413</Number>
       <Street>W. Rio Salado Pkwy</Street>
       <City>Tempe</City>
       <State>AZ</State>
       <Zip>85281</Zip>
-      <NearestAirport>Sky Harbor</NearestAirport>
     </Address>
   </Hotel>
 
@@ -101,52 +94,48 @@
     <Name>Hilton Phoenix Airport</Name>
     <Phone>480-555-0107</Phone>
     <Phone>480-555-0177</Phone>
-    <Address>
+    <Address NearestAirport="Sky Harbor">
       <Number>2435</Number>
       <Street>S. 47th St</Street>
       <City>Phoenix</City>
       <State>AZ</State>
       <Zip>85034</Zip>
-      <NearestAirport>Sky Harbor</NearestAirport>
     </Address>
   </Hotel>
 
   <Hotel Rating="4.0">
     <Name>DoubleTree by Hilton Phoenix-Tempe</Name>
     <Phone>480-555-0108</Phone>
-    <Address>
+    <Address NearestAirport="Sky Harbor">
       <Number>2100</Number>
       <Street>S. Priest Dr</Street>
       <City>Tempe</City>
       <State>AZ</State>
       <Zip>85282</Zip>
-      <NearestAirport>Sky Harbor</NearestAirport>
     </Address>
   </Hotel>
 
   <Hotel>
     <Name>AC Hotel Phoenix Tempe/Downtown</Name>
     <Phone>480-555-0109</Phone>
-    <Address>
+    <Address NearestAirport="Sky Harbor">
       <Number>100</Number>
       <Street>E. Rio Salado Pkwy</Street>
       <City>Tempe</City>
       <State>AZ</State>
       <Zip>85281</Zip>
-      <NearestAirport>Sky Harbor</NearestAirport>
     </Address>
   </Hotel>
 
   <Hotel Rating="3.9">
     <Name>Hampton Inn &amp; Suites Phoenix Tempe</Name>
     <Phone>480-555-0110</Phone>
-    <Address>
+    <Address NearestAirport="Sky Harbor">
       <Number>1415</Number>
       <Street>N. Scottsdale Rd</Street>
       <City>Tempe</City>
       <State>AZ</State>
       <Zip>85281</Zip>
-      <NearestAirport>Sky Harbor</NearestAirport>
     </Address>
   </Hotel>
 
