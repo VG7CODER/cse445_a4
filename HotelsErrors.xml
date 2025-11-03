@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Hotel>
-  <!-- wrong root name -->
-  <Hotel ID="H1" Rating="4.2">
-    <Name>Westin</Name>
+<Hotels>
+  <!-- missing ID attribute -->
+  <Hotel Rating="4.2">
+    <Name>Westin Tempe Downtown</Name>
     <Phone>480-968-8885</Phone>
+    <Phone>800-937-8461</Phone>
     <Address>
       <Number>11</Number>
       <Street>E 7th St</Street>
@@ -12,11 +13,10 @@
       <Zip>85281</Zip>
       <NearestAirport>Sky Harbor</NearestAirport>
     </Address>
-    <Phone>800-937-8461</Phone>
   </Hotel>
 
-  <!-- required attribute (ID) missing -->
-  <Hotel Rating="4.4">
+  <!-- phone after address -->
+  <Hotel ID="H2">
     <Name>Graduate Tempe</Name>
     <Phone>480-967-9431</Phone>
     <Address>
@@ -27,29 +27,17 @@
       <Zip>85281</Zip>
       <NearestAirport>Sky Harbor</NearestAirport>
     </Address>
+    <Phone>480-555-0000</Phone>
   </Hotel>
 
-  <!-- phone element missing -->
+  <!-- duplicate name element -->
   <Hotel ID="H3">
-    <Name>Tempe Mission Palms</Name>
-    <Address>
-      <Number>60</Number>
-      <Street>E 5th St</Street>
-      <City>Tempe</City>
-      <State>AZ</State>
-      <Zip>85281</Zip>
-      <NearestAirport>Sky Harbor</NearestAirport>
-    </Address>
-  </Hotel>
-
-  <!-- two name elements for this hotel -->
-  <Hotel ID="H4">
-    <Name>Courtyard by Marriott Tempe Downtown</Name>
-    <Name>Duplicate Name Should Not Exist</Name>
-    <Phone>480-966-2800</Phone>
+    <Name>Hyatt House Tempe / ASU</Name>
+    <Name>Duplicate Name Not Allowed</Name>
+    <Phone>480-207-1577</Phone>
     <Address>
       <Number>601</Number>
-      <Street>S Ash Ave</Street>
+      <Street>E 6th St</Street>
       <City>Tempe</City>
       <State>AZ</State>
       <Zip>85281</Zip>
@@ -57,16 +45,31 @@
     </Address>
   </Hotel>
 
-  <!-- no closing tag for address -->
-  <Hotel ID="H5">
-    <Name>Residence Inn Tempe Downtown/University</Name>
-    <Phone>480-967-2300</Phone>
+  <!-- invalid state format -->
+  <Hotel ID="H4">
+    <Name>Canopy by Hilton Tempe Downtown</Name>
+    <Phone>480-968-6800</Phone>
     <Address>
-      <Number>510</Number>
-      <Street>S Forest Ave</Street>
+      <Number>108</Number>
+      <Street>E University Dr</Street>
       <City>Tempe</City>
-      <State>AZ</State>
+      <State>Az</State>
       <Zip>85281</Zip>
       <NearestAirport>Sky Harbor</NearestAirport>
+    </Address>
   </Hotel>
-</Hotel>
+
+  <!-- invalid zipcode format -->
+  <Hotel ID="H5">
+    <Name>Aloft Tempe</Name>
+    <Phone>480-621-3300</Phone>
+    <Address>
+      <Number>951</Number>
+      <Street>E Playa Del Norte Dr</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>8528X</Zip>
+      <NearestAirport>Sky Harbor</NearestAirport>
+    </Address>
+  </Hotel>
+</Hotels>
