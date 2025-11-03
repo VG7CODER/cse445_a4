@@ -34,7 +34,7 @@
     <xs:attribute name="NearestAirport" type="xs:string" use="required"/>
   </xs:complexType>
 
-  <!-- single hotel -->
+  <!-- a single hotel -->
   <xs:complexType name="HotelType">
     <xs:sequence>
       <xs:element name="Name" type="xs:string"/>
