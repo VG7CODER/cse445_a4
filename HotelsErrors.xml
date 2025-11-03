@@ -1,75 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Hotels>
-  <!-- missing ID attribute -->
+<!-- wrong root element name -->
+<Hotel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="Hotels.xsd">
+
   <Hotel Rating="4.2">
-    <Name>Westin Tempe Downtown</Name>
+    <Name>Westin</Name>
     <Phone>480-968-8885</Phone>
     <Phone>800-937-8461</Phone>
-    <Address>
+    <Address NearestAirport="Sky Harbor">
       <Number>11</Number>
-      <Street>E 7th St</Street>
+      <Street>E. 7th St</Street>
       <City>Tempe</City>
       <State>AZ</State>
       <Zip>85281</Zip>
-      <NearestAirport>Sky Harbor</NearestAirport>
     </Address>
   </Hotel>
 
-  <!-- phone after address -->
-  <Hotel ID="H2">
+  <!-- two names -->
+  <Hotel Rating="4.5">
+    <Name>Omni Tempe Hotel at ASU</Name>
+    <Name>Omni Tempe (Duplicate)</Name>
+    <Phone>480-555-0101</Phone>
+    <Address NearestAirport="Sky Harbor">
+      <Number>7</Number>
+      <Street>E. University Dr</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+  </Hotel>
+
+  <!-- required attribute missing for address -->
+  <Hotel>
     <Name>Graduate Tempe</Name>
-    <Phone>480-967-9431</Phone>
+    <Phone>480-555-0102</Phone>
     <Address>
       <Number>225</Number>
-      <Street>E Apache Blvd</Street>
+      <Street>E. Apache Blvd</Street>
       <City>Tempe</City>
       <State>AZ</State>
       <Zip>85281</Zip>
-      <NearestAirport>Sky Harbor</NearestAirport>
-    </Address>
-    <Phone>480-555-0000</Phone>
-  </Hotel>
-
-  <!-- duplicate name element -->
-  <Hotel ID="H3">
-    <Name>Hyatt House Tempe / ASU</Name>
-    <Name>Duplicate Name Not Allowed</Name>
-    <Phone>480-207-1577</Phone>
-    <Address>
-      <Number>601</Number>
-      <Street>E 6th St</Street>
-      <City>Tempe</City>
-      <State>AZ</State>
-      <Zip>85281</Zip>
-      <NearestAirport>Sky Harbor</NearestAirport>
     </Address>
   </Hotel>
 
-  <!-- invalid state format -->
-  <Hotel ID="H4">
-    <Name>Canopy by Hilton Tempe Downtown</Name>
-    <Phone>480-968-6800</Phone>
-    <Address>
-      <Number>108</Number>
-      <Street>E University Dr</Street>
-      <City>Tempe</City>
-      <State>Az</State>
-      <Zip>85281</Zip>
-      <NearestAirport>Sky Harbor</NearestAirport>
-    </Address>
-  </Hotel>
-
-  <!-- invalid zipcode format -->
-  <Hotel ID="H5">
+  <!-- phone element missing -->
+  <Hotel Rating="4.0">
     <Name>Aloft Tempe</Name>
-    <Phone>480-621-3300</Phone>
-    <Address>
+    <Address NearestAirport="Sky Harbor">
       <Number>951</Number>
-      <Street>E Playa Del Norte Dr</Street>
+      <Street>E. Playa Del Norte Dr</Street>
       <City>Tempe</City>
       <State>AZ</State>
-      <Zip>8528X</Zip>
-      <NearestAirport>Sky Harbor</NearestAirport>
+      <Zip>85281</Zip>
     </Address>
   </Hotel>
-</Hotels>
+
+  <!-- address element with no closing tag -->
+  <Hotel>
+    <Name>Hyatt Place Tempe / Phoenix Airport</Name>
+    <Phone>480-555-0106</Phone>
+    <Address NearestAirport="Sky Harbor">
+      <Number>1413</Number>
+      <Street>W. Rio Salado Pkwy</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+  </Hotel>
+
+</Hotel>
