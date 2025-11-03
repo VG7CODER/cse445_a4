@@ -16,6 +16,8 @@
       <xs:element name="Phone" type="xs:string" minOccurs="1" maxOccurs="unbounded"/>
       <xs:element name="Address" type="AddressType"/>
     </xs:sequence>
+    <!-- required attribute -->
+    <xs:attribute name="ID" type="xs:ID" use="required"/>
     <!-- optional attribute -->
     <xs:attribute name="Rating" type="xs:decimal" use="optional"/>
   </xs:complexType>
