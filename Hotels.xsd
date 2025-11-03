@@ -33,18 +33,4 @@
       <xs:element name="NearestAirport" type="xs:string"/>
     </xs:sequence>
   </xs:complexType>
-
-  <!-- zipcode -->
-  <xs:simpleType name="ZipType">
-    <xs:restriction base="xs:string">
-      <xs:pattern value="\d{5}(-\d{4})?"/>
-    </xs:restriction>
-  </xs:simpleType>
-
-  <!-- state code -->
-  <xs:simpleType name="StateType">
-    <xs:restriction base="xs:string">
-      <xs:pattern value="[A-Z]{2}"/>
-    </xs:restriction>
-  </xs:simpleType>
 </xs:schema>
